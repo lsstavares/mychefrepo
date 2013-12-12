@@ -20,9 +20,10 @@ knife[:aws_ssh_key_id] 			= "myfreepair"
 # SOME AWS DEFAULTS
 knife[:region]					= "sa-east-1"
 knife[:availability_zone]		= "sa-east-1a"
-knife[:ssh_user]				= "leonardo"
+knife[:ssh_user]				= "ubutnu"
 knife[:flavor]					= "t1.micro"
 
 # AWS DEBIAN
 knife[:image]					= "ami-b03590ad"
+#knife[:image]					= "ami-35258228"  # Ubuntu
 knife[:use_sudo]				= "true"

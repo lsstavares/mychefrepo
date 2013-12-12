@@ -2,4 +2,5 @@
 
 name "base-server"
 description "Base role for Debian servers"
-run_list "recipe[apt]","recipe[chef-client::cron]"
+
+run_list "recipe[apt]","recipe[base-server-packages]","recipe[chef-client::cron]"
